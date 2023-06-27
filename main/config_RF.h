@@ -195,7 +195,7 @@ float receiveMhz = CC1101_FREQUENCY;
 #  ifdef ESP8266
 #    define RF_RECEIVER_GPIO 0 // D3 on nodemcu // put 4 with rf bridge direct mod
 #  elif ESP32
-#    define RF_RECEIVER_GPIO 27 // ESP32 CHANGED TO D13 TO WORK WITH ESP-32 CAM 
+#    define RF_RECEIVER_GPIO 13 // ESP32 CHANGED TO D13 TO WORK WITH ESP-32 CAM 
 #  elif __AVR_ATmega2560__
 #    define RF_RECEIVER_GPIO 1 //1 = D3 on mega
 #  else
